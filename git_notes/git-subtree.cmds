@@ -8,10 +8,10 @@ git remote add subtree/ansible-galaxy https://github.com/anmoljh/ansible-galaxy.
 git remote add subtree/ansible-galaxy-tools https://github.com/anmoljh/ansible-galaxy-tools.git
 
 # Add subtrees 
-# syntax:- git subtree add --prefix=<subtree-prefix> --squash <remote> <branch>
-git subtree add --prefix=provisioning/roles/ansible-galaxy-os --squash subtree/ansible-galaxy-os gcac
-git subtree add --prefix=provisioning/roles/ansible-galaxy --squash subtree/ansible-galaxy gcac
-git sutbree add --prefix=provisioning/roles/ansible-galaxy-tools --squash subtree/ansible-galaxy-tools gcac
+# syntax:- git subtree add --prefix=<subtree-prefix> -m "Commit Message" --squash <remote> <branch>
+git subtree add --prefix=provisioning/roles/ansible-galaxy-os -m "Add subtree 'ansible-galaxy-os'" --squash subtree/ansible-galaxy-os gcac
+git subtree add --prefix=provisioning/roles/ansible-galaxy -m "Add subtree 'ansible-galaxy'" --squash subtree/ansible-galaxy gcac
+git sutbree add --prefix=provisioning/roles/ansible-galaxy-tools -m "Add subtree 'ansible-galaxy-tools'" --squash subtree/ansible-galaxy-tools gcac
 
 # Pulling upstream changes
 # syntax:- git subtree pull --prefix=<subtree-prefix> --squash <remote> <branch>
