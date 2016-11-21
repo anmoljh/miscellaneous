@@ -6,7 +6,7 @@ git config --global user.email "anmol.jh@gmail.com"
 
 
 # Create a branch
-#syntax:- git checkout -b <branch>
+#syntax:- git checkout -b <branch> [<start-point>]
 git checkout -b gcac-test
 
 # Delete a local branch
