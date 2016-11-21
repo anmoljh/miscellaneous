@@ -14,7 +14,10 @@ git checkout -b gcac-test
 #         git branch -D <branch>    # forcefully delete
 git branch -D gcac-test
 
+# Delete a remote reference (only without deleting remote branch) from a local branch
+#syntax: git branch -d -r <remote-ref>
+git branch -d -r origin/gcac-test
+
 # Delete a remote branch
 #syntax:- git push <remote> --delete <branch>
 git push origin --delete gcac-test
-
