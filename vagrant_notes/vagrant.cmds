@@ -1,0 +1,7 @@
+1. vagrant up
+2. vagrant up --no-provision
+3. vagrant provision --provision-with ansible-galaxy-os
+4. vagrant reload
+5. vagrant reload --provision
+6. vagrant reload --provision-with ansible-galaxy
+7. vagrant destroy
