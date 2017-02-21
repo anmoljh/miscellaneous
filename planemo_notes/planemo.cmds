@@ -1,0 +1,10 @@
+#1. planemo shed_init --help
+#2. planemo shed_lint --help
+#3. planemo shed_create --help
+#4. planemo shed_upload --help
+#5. planemo shed_update --help
+#6. planemo shed_diff --help
+
+## Examples:- ##
+
+#   planemo shed_init --category ''  --description ''  --long_description ''  --name ''  --owner ''  --homepage_url '' --remote_repository_url '' 

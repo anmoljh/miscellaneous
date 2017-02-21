@@ -1,0 +1,10 @@
+categories:
+        - ( Choose from .. Assembly, ChIP-seq, Combinatorial Selections, Computational chemistry, Constructive Solid Geometry, Convert Formats, Epigenetics, Data Export, Data Managers, Data Source, Fasta Manipulation, Fastq Manipulation, Flow Cytometry Analysis, Genome-Wide Association Study, Genomic Interval Operations, Graphics, Imaging, Metabolomics, Metagenomics, Micro-array Analysis, Next Gen Mappers, NLP, Ontology Manipulation, Phylogenetics, Proteomics, RNA, SAM, Sequence Analysis, Statistics, Systems Biology, Text Manipulation, Tool Dependency Packages, Tool Generators, Transcriptomics, Variant Analysis, Visualization, Web Services )
+description: ''
+long_description: |
+      This is a long description..     
+name: ''
+owner: '' 
+type: ( Choose from .. unrestricted, tool_dependency_definition ) 
+homepage_url: ''
+remote_repository_url: '' 
