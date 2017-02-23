@@ -7,4 +7,8 @@
 
 ## Examples:- ##
 
-#   planemo shed_init --category ''  --description ''  --long_description ''  --name ''  --owner ''  --homepage_url '' --remote_repository_url '' 
+# planemo shed_init --category ''  --description ''  --long_description ''  --name ''  --owner ''  --homepage_url '' --remote_repository_url '' 
+
+# planemo shed_lint 
+# planemo shed_create --shed_target testtoolshed 
+# planemo shed_update --shed_target testtoolshed
