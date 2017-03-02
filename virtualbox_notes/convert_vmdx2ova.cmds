@@ -1,0 +1,5 @@
+# list virutal machines
+VBoxManage list vms
+
+# convert vmdx to ova
+VBoxManage export vagrant-gcac_vm --manifest -o gcac.ova
